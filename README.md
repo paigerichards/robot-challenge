@@ -29,17 +29,23 @@ REPORT*
 __Example a__
 
 >PLACE 0, 0, NORTH
-MOVE
-REPORT
+
+>MOVE
+
+>__REPORT__
+
 Expected output
 
-*0,1,NORTH*
+*0, 1, NORTH*
 
 __Example b__
 
 >PLACE 0, 0, NORTH
-LEFT
-REPORT
+
+>LEFT
+
+>__REPORT__
+
 Expected output
 
 *0, 0, WEST*
@@ -47,11 +53,17 @@ Expected output
 __Example c__
 
 >PLACE 1, 2, EAST
-MOVE
-MOVE
-LEFT
-MOVE
-REPORT
+
+>MOVE
+
+>MOVE
+
+>LEFT
+
+>MOVE
+
+>__REPORT__
+
 Expected output
 
 *3, 3, NORTH*
@@ -63,19 +75,22 @@ Any move that would cause the robot to fall must be ignored.
 
 ## Plan
 > Set-up basic html structure
+
 > Add in Bootstrap for a nice look, feel
+
 > initialise js and begin basic js functions
+
 > See the application come together!
 
 ### Basic HTML Structure
 
-[add image]
+![](images/basic-html.png)
 
 *I firstly set up a template to use for my robot game, and added in bootstrap. I added in a list of commands that will let the user understand how to move the robot. I also included an input field which allows the user to move it.*
 
 ### Beginning JS Functions
 
-[add image]
+![](images/functions.png) ![](images/functions2.png)
 
 Before putting the 'basic' functions that I think would be needed so far for the completion of the task, I wrote down on paper what I would need, as per requirements
 
@@ -87,3 +102,18 @@ Before putting the 'basic' functions that I think would be needed so far for the
 
 
   Admittedly I took my time to do this, and though at some stages I felt quite stuck I decided to refer to some docs and tutorials for basic command games for some insight and refresh on Javascript.
+
+### Adding Code
+
+At this stage I added some logic that I thought would help me further my progress in completing the brief. I initialised the x, y and f which was equal to north and I moved on to code simple things such as; 'document.getElementById', restricting input values & creating an error handler.
+As I read further into docs about such controlling behaviour by the user this application would have, I found that sometimes you need to specify in the coding conventions the direction, eg. anticlockwise or clockwise.
+After some deep research in how to create the axis, I found I needed to restrict the max of X & Y in accordance to the brief. Since I had already initialised the X & Y, I was ready to make constraints to them, simply using __this.max__ according to some documentation I read, will easily do the trick. I 'init[ed]' this within the axisTable along with the size of the robot.
+I also began to create the 'report' variable that uses the reportMessage to send the data to output with the innerHTML line of code.
+
+I'm still very much in the early stages of production with this brief, and haven't gotten to the stage of rendering the 'robot game' on the page. My next step before coding any further will be to test my code properly to discover whether how I'm going is correct. And though I will not be finished by Monday (tomorrow), I wish to continue with this brief, not only for the possibility of recognition, but to challenge myself and learn more as I would like to know general JS in more depth.
+
+I would like to eventually, once I have this working as required, to instead of having the movements of the robot done by user input, have it controlled by keyboard arrows. I did do some research into this and discovered that the arrows have keycodes, and hoping to successfully use them in a function.
+
+While this has been quite a challenge for me, involving lots of reading, and while I haven't 'completed' it, its still been an informative learning experience. I've never used axis within code before, or the movement of an object by any means, though it's great to know what I (hopefully) will be able to achieve with more practice and challenges!
+
+Lookout for updates as I plan to complete this!

@@ -4,7 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- <script type="text/javascript" src="robot.js"></script> -->
+    <script>
+
+    </script>
   </head>
   <body class="container">
     <main>
@@ -15,24 +17,27 @@
         <li>Left</li>
         <li>Right</li>
         <li>Move</li>
-        <li>Report</li>
      </ul>
    </p>
+   <p><em>Place input: X, Y, F (N, E, S, W)</em><p>
+   <p><em>Left input: Will face robot to the left</em><p>
+   <p><em>Right input: Will face robot to the right</em><p>
+   <p><em>Move input: Will move in facing direction</em><p>
    <!-- user input -->
-    <div class="header">
+    <div class="in-out col-md-6">
         <label for="command">Enter a Command and move the Robot!</label>
         <input type="text" id="command">
     </div>
+    <!-- output of position -->
+    <div class="robot-position col-md-6">
+         <label>Report:</label>
+        <p id="report">Will be JS output</p>
+    </div>
     <!-- game -->
-    <div class="">
-
+    <div class="game-area col-md-12 text-center">
+      <p>game area js</p>
       <canvas id="game" width="600" height="600"></canvas>
 
-    </div>
-    <!-- output of position -->
-    <div class="robot-position">
-         <h4>Report:</h4>
-        <p id="report"></p>
     </div>
     </main>
       <!-- bootstrap -->

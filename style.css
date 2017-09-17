@@ -1,17 +1,32 @@
 .container {
   margin-top: 30px;
+
 }
 
 body {
-  background-color: 	#32127A;
+  background-color: #32127A;
   color: #fff;
   letter-spacing: 2px;
 }
 
 label {
   display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 input {
   border-radius: 5px;
   width: 310px;
+}
+em {
+  font-size: 12px;
+  padding-left: 15px;
+}
+.game-area {
+  background-color: #462987;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.game-area p {
+  margin-top: 20px;
 }
