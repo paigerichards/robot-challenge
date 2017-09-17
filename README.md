@@ -1,11 +1,11 @@
-__#Toy Robot Challenge__
-*##This Challenge is a Technical Test*
-###Objectives
+__# Toy Robot Challenge__
+*## This Challenge is a Technical Test*
+### Objectives
 > The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units
 > There are no other obstructions on the table surface
 > The robot is free to roam around the surface of the table, but must be prevented from falling to destruction. Any movement that would result in the robot falling from the table must be prevented, however further valid movement commands must still be allowed
 
-###Requirements
+### Requirements
 *Create an application using JavaScript that can handle the following commands:
 
 PLACE X,Y,F
@@ -24,7 +24,7 @@ REPORT*
 > Input can be from a standard input or as the developer chooses
 > Provide test data to exercise the application
 
-###Example Output
+### Example Output
 __Example a__
 
 >PLACE 0,0,NORTH
@@ -55,19 +55,19 @@ Expected output
 
 *3,3,NORTH*
 
-###Constraints
+### Constraints
 >The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot.
 Any move that would cause the robot to fall must be ignored.
 
 
-##Plan
+## Plan
 > Set-up basic html structure
 > Add in Bootstrap for a nice look, feel
 > initialise js and begin basic js functions
 > See the application come together!
 
-###Basic HTML Structure
+### Basic HTML Structure
 
 [add image]
 
-*I firstly set up a template to use for my robot game, and added in bootstrap. I added in a list of commands that will let the user understand how to move the robot. I also included an input field which allows the user to move it.* 
+*I firstly set up a template to use for my robot game, and added in bootstrap. I added in a list of commands that will let the user understand how to move the robot. I also included an input field which allows the user to move it.*
