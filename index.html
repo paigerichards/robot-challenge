@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body class="container">
+    <main>
+      <h1>Toy Robot Challenge</h1>
+      <p>Commands:
+      <ul>
+        <li>Place (X, Y, F)</li>
+        <li>Left</li>
+        <li>Right</li>
+        <li>Move</li>
+        <li>Report</li>
+     </ul>
+   </p>
+    <div class="header">
+        <label for="command">Enter a Command and move the Robot!</label>
+        <input type="text" id="command">
+    </div>
+
+    <canvas id="game" width="600" height="600"></canvas>
+    <div class="robot-position">
+         <h4>Position:</h4>
+        <p id="position"></p>
+    </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  </body>
+
+  </html>
