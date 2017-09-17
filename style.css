@@ -1,5 +1,17 @@
+.container {
+  margin-top: 30px;
+}
 
+body {
+  background-color: 	#32127A;
+  color: #fff;
+  letter-spacing: 2px;
+}
 
 label {
   display: block;
+}
+input {
+  border-radius: 5px;
+  width: 310px;
 }

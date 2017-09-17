@@ -28,7 +28,7 @@ REPORT*
 ### Example Output
 __Example a__
 
->PLACE 0,0,NORTH
+>PLACE 0, 0, NORTH
 MOVE
 REPORT
 Expected output
@@ -37,16 +37,16 @@ Expected output
 
 __Example b__
 
->PLACE 0,0,NORTH
+>PLACE 0, 0, NORTH
 LEFT
 REPORT
 Expected output
 
-*0,0,WEST*
+*0, 0, WEST*
 
 __Example c__
 
->PLACE 1,2,EAST
+>PLACE 1, 2, EAST
 MOVE
 MOVE
 LEFT
@@ -54,7 +54,7 @@ MOVE
 REPORT
 Expected output
 
-*3,3,NORTH*
+*3, 3, NORTH*
 
 ### Constraints
 >The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot.
@@ -72,3 +72,18 @@ Any move that would cause the robot to fall must be ignored.
 [add image]
 
 *I firstly set up a template to use for my robot game, and added in bootstrap. I added in a list of commands that will let the user understand how to move the robot. I also included an input field which allows the user to move it.*
+
+### Beginning JS Functions
+
+[add image]
+
+Before putting the 'basic' functions that I think would be needed so far for the completion of the task, I wrote down on paper what I would need, as per requirements
+
+
+   - Initialise the game,
+   - Add the functions; place, left, right & report,
+   - Print errors such as; 'Exceeding table limit'
+   - Create the variables; input, tableTop, report
+
+
+  Admittedly I took my time to do this, and though at some stages I felt quite stuck I decided to refer to some docs and tutorials for basic command games for some insight and refresh on Javascript.
