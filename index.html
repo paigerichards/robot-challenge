@@ -8,27 +8,32 @@
   <body class="container">
     <main>
       <h1>Toy Robot Challenge</h1>
-      <p>Commands:
+      <p>Game Commands:
       <ul>
-        <li>Place (X, Y, F)</li>
+        <li>Place (ex. 2, 3, WEST)</li>
         <li>Left</li>
         <li>Right</li>
         <li>Move</li>
         <li>Report</li>
      </ul>
    </p>
+   <!-- user input -->
     <div class="header">
         <label for="command">Enter a Command and move the Robot!</label>
         <input type="text" id="command">
     </div>
-
-    <canvas id="game" width="600" height="600"></canvas>
+    <!-- game -->
+    <div class="">
+      <canvas id="game" width="600" height="600"></canvas>
+    </div>
+    <!-- output of position -->
     <div class="robot-position">
          <h4>Position:</h4>
         <p id="position"></p>
     </div>
     </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- bootstrap -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
   </body>
 
