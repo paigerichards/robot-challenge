@@ -96,16 +96,16 @@ Before putting the 'basic' functions that I think would be needed so far for the
 
 
    - Initialise the game,
-   - Add the functions; place, left, right & report,
+   - Add the functions; place, left, right, move & report,
    - Print errors such as; 'Exceeding table limit'
-   - Create the variables; input, tableTop, report
+   - Create the variables; input, axisTable, report
 
+  I decided to go straight to paper first, other than coding to just jot down what I feel would be needed. I then decided what was most needed and took away what I thought would be a 'nice' feature. I did this to minimise time wasted staring at a computer screen wondering what to type.
 
-  Admittedly I took my time to do this, and though at some stages I felt quite stuck I decided to refer to some docs and tutorials for basic command games for some insight and refresh on Javascript.
 
 ### Adding Code
 
-At this stage I added some logic that I thought would help me further my progress in completing the brief. I initialised the x, y and f which was equal to north and I moved on to code simple things such as; 'document.getElementById', restricting input values & creating an error handler.
+Admittedly I took my time to do this, and though at some stages I felt quite stuck I decided to refer to some docs and tutorials for basic command games for some insight and refresh on Javascript. I added some logic that I thought would help me further my progress in completing the brief. I initialised the x, y and f which was equal to north and I moved on to code simple things such as; 'document.getElementById', restricting input values & creating an error handler.
 As I read further into docs about such controlling behaviour by the user this application would have, I found that sometimes you need to specify in the coding conventions the direction, eg. anticlockwise or clockwise.
 After some deep research in how to create the axis, I found I needed to restrict the max of X & Y in accordance to the brief. Since I had already initialised the X & Y, I was ready to make constraints to them, simply using __this.max__ according to some documentation I read, will easily do the trick. I 'init[ed]' this within the axisTable along with the size of the robot.
 I also began to create the 'report' variable that uses the reportMessage to send the data to output with the innerHTML line of code.
