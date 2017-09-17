@@ -105,10 +105,10 @@ Before putting the 'basic' functions that I think would be needed so far for the
 
 ### Adding Code
 
-Admittedly I took my time to do this, and though at some stages I felt quite stuck I decided to refer to some docs and tutorials for basic command games for some insight and refresh on Javascript. I added some logic that I thought would help me further my progress in completing the brief. I initialised the x, y and f which was equal to north and I moved on to code simple things such as; 'document.getElementById', restricting input values & creating an error handler.
+Admittedly I took my time to do this, and though at some stages I felt quite stuck I decided to refer to some docs and tutorials for basic command games for some insight and refresh on Javascript. I added some logic that I thought would help me further my progress in completing the brief. I initialised the x, y and f which was equal to east and I moved on to code simple things such as; 'document.getElementById', restricting input values & creating an error handler.
 As I read further into docs about such controlling behaviour by the user this application would have, I found that sometimes you need to specify in the coding conventions the direction, eg. anticlockwise or clockwise.
 After some deep research in how to create the axis, I found I needed to restrict the max of X & Y in accordance to the brief. Since I had already initialised the X & Y, I was ready to make constraints to them, simply using __this.max__ according to some documentation I read, will easily do the trick. I 'init[ed]' this within the axisTable along with the size of the robot.
-I also began to create the 'report' variable that uses the reportMessage to send the data to output with the innerHTML line of code.
+I also began to create the 'report' variable that uses the `report` to send the data to output with the innerHTML line of code.
 
 I'm still very much in the early stages of production with this brief, and haven't gotten to the stage of rendering the 'robot game' on the page. My next step before coding any further will be to test my code properly to discover whether how I'm going is correct. And though I will not be finished by Monday (tomorrow), I wish to continue with this brief, not only for the possibility of recognition, but to challenge myself and learn more as I would like to know general JS in more depth.
 
